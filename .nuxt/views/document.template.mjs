@@ -5,7 +5,7 @@ export default (params) => `<!DOCTYPE html>
   ${params.HEAD}
 </head>
 
-<body ${params.BODY_ATTRS}>
+<body ${params.BODY_ATTRS}>${params.BODY_PREPEND}
   ${params.APP}
 </body>
 
